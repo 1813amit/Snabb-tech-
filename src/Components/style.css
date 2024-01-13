@@ -1,0 +1,78 @@
+.box1 {
+  width: 400px;
+  padding: 3rem 0;
+  height: 100%;
+  max-height: 502px;
+}
+.forgotbtn {
+  margin-top: 1rem;
+  margin-left: -9rem;
+}
+.cont2 {
+  padding-top: 1.5rem;
+}
+.btnall {
+  margin-bottom: 1.25rem;
+}
+
+@media screen and (max-width: 280px) {
+  .box1 {
+    width: 280px;
+  }
+  .fh3 {
+    padding: 0 1rem;
+  }
+  .fh3 > h3 {
+    text-align: center;
+    width: 60%;
+    font-size: 0.8rem;
+  }
+}
+@media (min-width: 281px) and (max-width: 765px) {
+  .box1 {
+    width: 330px;
+  }
+}
+@media (min-width: 766px) and (max-width: 920px) {
+  .box1 {
+    width: 280px;
+    max-height: 300px;
+  }
+  .box1 > div > h1 {
+    margin-top: 0.3rem;
+    font-size: 1.2rem;
+    padding: 0.1rem;
+  }
+  .box1 > div > h2 {
+    /* margin-top: 0.3rem; */
+    font-size: 1rem;
+  }
+  .fh3 > h3 {
+    text-align: center;
+    width: 60%;
+    font-size: 0.8rem;
+  }
+  .cont2 {
+    padding-top: 0rem;
+  }
+  .btnall {
+    margin-bottom: 1rem;
+  }
+  .forgotbtn {
+    margin-top: 0rem;
+    margin-left: 0rem;
+  }
+}
+@media (min-width: 921px) and (max-width: 1024px) {
+  .box1 {
+    width: 380px;
+    max-height: 400px;
+  }
+  .btnall {
+    margin-bottom: 1rem;
+  }
+  .box1 > div > h1 {
+    margin-top: 1rem;
+    font-size: 1.7rem;
+  }
+}
